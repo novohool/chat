@@ -7,7 +7,7 @@ class LlamaChat:
         # 设置页面标题和图标
         st.set_page_config(page_title="llama-3.1-405b Chat", page_icon="🦙")
         # 添加标题和描述
-        st.title("Llama Chat")
+        st.title("llama-3.1-405b Chat")
         st.write("与 Llama 模型进行交互，获取实时响应。")
         # 初始化历史消息列表
         if 'history' not in st.session_state:
