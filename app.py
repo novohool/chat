@@ -66,8 +66,6 @@ class LlamaChat:
                     st.session_state.history.append({"role": "assistant", "content": final_response})
                     st.markdown(final_response)
                     st.success("处理完成!")
-                user_input = st.text_area("继续输入你的问题:", "")
-
         self.display_history()
 
 if __name__ == "__main__":
